@@ -9,6 +9,8 @@ namespace TicTacToe
 
             Console.WriteLine("Welcome to TicTacToe game");
             TicTacToe.CreateBoard();
+            TicTacToe.PlayerMove();
+            TicTacToe.ComputerMove();
         }
     }
 }
